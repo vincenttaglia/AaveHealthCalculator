@@ -47,6 +47,12 @@ The Aave Health Calculator is a web-based tool that allows users to assess the r
     - `wstETH` - [0x8B6851156023f4f5A66F68BEA80851c3D905Ac93](https://etherscan.io/address/0x8B6851156023f4f5A66F68BEA80851c3D905Ac93)
     - `rETH` - [0x05225Cd708bCa9253789C1374e4337a019e99D56](https://etherscan.io/address/0x05225Cd708bCa9253789C1374e4337a019e99D56)
     - `cbETH` - [0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731)
+    - `ETHx` - [0xd7b163B671f8cE9379DF8Ff7F75fA72Ccec1841c](https://etherscan.io/address/0xd7b163B671f8cE9379DF8Ff7F75fA72Ccec1841c)
+    - `ezETH` - [0xF3d49021fF3bbBFDfC1992A4b09E5D1d141D044C](https://etherscan.io/address/0xF3d49021fF3bbBFDfC1992A4b09E5D1d141D044C)
+    - `osETH` - [0x2b86D519eF34f8Adfc9349CDeA17c09Aa9dB60E2](https://etherscan.io/address/0x2b86D519eF34f8Adfc9349CDeA17c09Aa9dB60E2)
+    - `rsETH` - [0x7292C95A5f6A501a9c4B34f6393e221F2A0139c3](https://etherscan.io/address/0x7292C95A5f6A501a9c4B34f6393e221F2A0139c3)
+    - `tETH` - [0x85968026294b8f8Fb86d6bF3Cda079f9376aD05A](https://etherscan.io/address/0x85968026294b8f8Fb86d6bF3Cda079f9376aD05A)
+    - `weETH` - [0x87625393534d5C102cADB66D37201dF24cc26d4C](https://etherscan.io/address/0x87625393534d5C102cADB66D37201dF24cc26d4C)
   - Polygon Oracles:
     - `wstETH` - [0xe34949A48cd2E6f5CD41753e449bd2d43993C9AC](https://polygonscan.com/address/0xe34949A48cd2E6f5CD41753e449bd2d43993C9AC)
   - Avalanche Oracles:

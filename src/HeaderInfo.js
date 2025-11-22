@@ -551,7 +551,7 @@ const HeaderInfo = () => {
         }
     }
 
-    const missingEthereumSymbols = ['WBTC', "LDO", "wstETH", "rETH", "cbETH"];
+    const missingEthereumSymbols = ['WBTC','LDO','wstETH','rETH','cbETH','ETHx','ezETH','osETH','rsETH','tETH','weETH'];
     const missingArbitrumSymbols = ['wstETH','rETH'];
     const missingAvalancheSymbols = ['sAVAX'];
     const missingPolygonSymbols = ['wstETH'];
@@ -565,8 +565,7 @@ const HeaderInfo = () => {
             const web3ProviderUrl = `https://mainnet.infura.io/v3/${process.env.REACT_APP_API_KEY}`;
             const web3 = new Web3(web3ProviderUrl);
             const contractABI = [{"inputs":[{"internalType":"address","name":"pegToBaseAggregatorAddress","type":"address"},{"internalType":"address","name":"assetToPegAggregatorAddress","type":"address"},{"internalType":"uint8","name":"decimals","type":"uint8"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"DecimalsAboveLimit","type":"error"},{"inputs":[],"name":"DecimalsNotEqual","type":"error"},{"inputs":[],"name":"ASSET_TO_PEG","outputs":[{"internalType":"contract IChainlinkAggregator","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"DECIMALS","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"DENOMINATOR","outputs":[{"internalType":"int256","name":"","type":"int256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MAX_DECIMALS","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"PEG_TO_BASE","outputs":[{"internalType":"contract IChainlinkAggregator","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestAnswer","outputs":[{"internalType":"int256","name":"","type":"int256"}],"stateMutability":"view","type":"function"}];
-            const oracleAddresses = ['0x230E0321Cf38F09e247e50Afc7801EA2351fe56F', '0xb01e6C9af83879B8e06a092f0DD94309c0D497E4', '0x8B6851156023f4f5A66F68BEA80851c3D905Ac93', '0x05225Cd708bCa9253789C1374e4337a019e99D56','0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731'];
-    
+            const oracleAddresses = ['0x230E0321Cf38F09e247e50Afc7801EA2351fe56F', '0xb01e6C9af83879B8e06a092f0DD94309c0D497E4', '0x8B6851156023f4f5A66F68BEA80851c3D905Ac93', '0x05225Cd708bCa9253789C1374e4337a019e99D56','0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731','0xd7b163B671f8cE9379DF8Ff7F75fA72Ccec1841c','0xF3d49021fF3bbBFDfC1992A4b09E5D1d141D044C','0x2b86D519eF34f8Adfc9349CDeA17c09Aa9dB60E2','0x7292C95A5f6A501a9c4B34f6393e221F2A0139c3','0x85968026294b8f8Fb86d6bF3Cda079f9376aD05A','0x87625393534d5C102cADB66D37201dF24cc26d4C'];
             // For each oracle, retrieve the latest token price.
             var tempOraclePrices = [];
             for(const index in oracleAddresses){
