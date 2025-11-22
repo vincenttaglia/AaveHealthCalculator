@@ -578,7 +578,6 @@ const HeaderInfo = () => {
                 catch (error){  
                     displayErrorMessage('Error fetching oracle token info. ' + error);
                 }
-                await new Promise(resolve => setTimeout(resolve, 250));
             }
             setOraclePrices(tempOraclePrices);
         }
